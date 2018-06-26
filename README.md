@@ -9,7 +9,7 @@ The fastest deep equal to work with `bson` or `bson-ext`
 ## Install
 
 ```bash
-npm install bson-fast-deep-equal
+npm install Fonger/bson-fast-deep-equal
 ```
 
 
