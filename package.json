@@ -1,7 +1,7 @@
 {
-  "name": "fast-deep-equal",
+  "name": "bson-fast-deep-equal",
   "version": "2.0.1",
-  "description": "Fast deep equal",
+  "description": "Fast deep equal with BSON type support",
   "main": "index.js",
   "scripts": {
     "eslint": "eslint *.js benchmark spec",
@@ -12,25 +12,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/epoberezkin/fast-deep-equal.git"
+    "url": "git+https://github.com/Fonger/bson-fast-deep-equal.git"
   },
   "keywords": [
     "fast",
     "equal",
     "deep-equal"
   ],
-  "author": "Evgeny Poberezkin",
+  "author": "Evgeny Poberezkin, F",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/epoberezkin/fast-deep-equal/issues"
+    "url": "https://github.com/Fonger/bson-fast-deep-equal/issues"
   },
-  "homepage": "https://github.com/epoberezkin/fast-deep-equal#readme",
+  "homepage": "https://github.com/Fonger/bson-fast-deep-equal#readme",
   "devDependencies": {
     "benchmark": "^2.1.4",
     "coveralls": "^2.13.1",
     "deep-eql": "latest",
     "deep-equal": "latest",
     "eslint": "^4.0.0",
+    "fast-deep-equal": "latest",
     "lodash": "latest",
     "mocha": "^3.4.2",
     "nano-equal": "latest",
@@ -55,5 +56,8 @@
     "index.js",
     "index.d.ts"
   ],
-  "types": "index.d.ts"
+  "types": "index.d.ts",
+  "dependencies": {
+    "bson": "^3.0.0"
+  }
 }
